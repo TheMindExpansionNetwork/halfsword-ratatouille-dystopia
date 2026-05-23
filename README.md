@@ -13,27 +13,44 @@ Frying pans. Rolling pins. Cleavers. Pure kitchen chaos.
 
 ---
 
-## What This Mod Actually Does
+## What This Mod Actually Does (Right Now)
 
-- Adds a full **"Kitchen Dystopia" mode** that changes how the entire game feels.
-- When activated (`KitchenDystopia`), time slows down globally and the match turns into a chaotic ruined kitchen battlefield.
-- Lots of funny chef-themed powers (`IronChef`, `PanTime`, time manipulation, etc.).
-- Heavy *Ratatouille* energy mixed with dark humor ("Anyone can cook... especially when everyone is already dead").
+**Core Experience:**
+- Type `KitchenDystopia` (or `ChefApocalypse`) and the **entire game changes**.
+- Time slows down globally → fights feel more dramatic and "slow-motion chef combat".
+- You get powerful kitchen-themed abilities (stronger swings = "pan power", big health buffs, extreme slow-mo "Pan Time").
+- All text, commands, and flavor are written in heavy **Ratatouille + post-apocalyptic chef** style.
+- v0.3 adds starter visual prop overrides: expect more pans, plates, and kitchen clutter appearing in the world thanks to the included demo pak.
 
-It’s not just a few commands — it’s a whole silly, violent, dystopian chef fantasy.
+**Kitchen Theming:**
+- Everything is kitchen-themed in name and feel: frying pans, rolling pins, cleavers, "Iron Chef", "Pan Time", "Ratatouille Rage".
+- The goal is that it *feels* like everyone is fighting in a ruined kitchen with kitchen tools.
+
+**Visual Changes:**
+- v0.3 ships a starter `.pak` (RatatouilleVisuals_Demo.pak) that includes cooking utensil meshes (pans, plates, boards) in the props locations. This demonstrates the override path and seeds more kitchen props/pots into the world.
+- Weapons still use original models for now (full swaps in progress).
+- Barrels will become pots in the next cook pass.
+
+This is now a **gameplay + visuals starter + atmosphere mod**. Full weapon mesh swaps coming in next cook pass.
+
+## Visual Assets
+v0.3 includes starter prop overrides (more pans & pots in the world) + the full dystopian Lua mode. Full weapon mesh swaps coming in next cook pass.
+
+The demo pak mounts at `/HalfswordUE5/Content/...` and is installed automatically by the updated `install.ps1` / `install.bat` into your game's `Content/Paks/`.
 
 ---
 
 ## Quick Install (Easiest)
 
 1. Download this repo as a ZIP.
-2. Extract it.
-3. Run `install.ps1` (best) or `install.bat`.
-4. Start Half-Sword.
-5. Open the console (`~` or `Insert` key).
-6. Type `KitchenDystopia` to turn on the apocalypse.
+2. Extract it somewhere.
+3. Run `install.ps1` (best on Windows) or `install.bat`.
+4. The installer copies both the Lua mod (KitchenMayhem) **and** the visual props pak (Paks/RatatouilleVisuals_Demo.pak) to the right places.
+5. Start Half-Sword.
+6. Open the console (`~` or `Insert` key).
+7. Type `KitchenDystopia` (or `ChefApocalypse`) to turn on the full chef apocalypse — time warp + kitchen visuals active.
 
-The installer puts the mod in the correct folder automatically.
+The installer puts the mod + pak in the correct folders automatically (UE4SS/Mods/ and Content/Paks/).
 
 ---
 
@@ -44,7 +61,11 @@ The installer puts the mod in the correct folder automatically.
    ```
    ...\Half Sword\HalfswordUE5\Binaries\Win64\UE4SS\Mods\
    ```
-3. Launch the game and type the commands in the console.
+3. (For visuals) Copy `RatatouilleVisuals_Demo.pak` (or all from Paks/) into:
+   ```
+   ...\Half Sword\HalfswordUE5\Content\Paks\
+   ```
+4. Launch the game and type the commands in the console. (The pak provides starter kitchen prop overrides.)
 
 ---
 
@@ -73,12 +94,35 @@ Not everyone survives."
 
 ---
 
+## Generated Assets
+
+We made custom promotional images and a short concept video for this mod using AI (because of course we did).
+
+They're in the `assets/` folder (or will be added shortly).
+
+---
+
+## Music Recommendations
+
+For maximum immersion, play some old French accordion or absurd kitchen jazz while the world burns.
+
+See the `music/` folder for suggestions (all royalty-free / public domain friendly).
+
+---
+
 ## Credits
 
-- Built with the Half-Sword Autonomous Mod Factory by Grok
-- UE4SS patterns from the Half-Sword modding community
+- Built with the **Half-Sword Autonomous Mod Factory** by Grok
+- UE4SS Lua patterns from the Half-Sword modding community
 - Visuals & video concept generated with Grok’s image/video tools
 - Special thanks to every rat who ever believed they could open a restaurant in a nuclear winter
+
+---
+
+## Links
+
+- Tools & Factory: https://github.com/TheMindExpansionNetwork/halfsword-autonomous-mod-factory
+- All Mods Workshop (dev): https://github.com/TheMindExpansionNetwork/halfsword-mod-workshop
 
 ---
 
