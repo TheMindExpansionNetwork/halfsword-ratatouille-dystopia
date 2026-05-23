@@ -24,30 +24,22 @@ Frying pans. Rolling pins. Cleavers. Pure kitchen chaos.
 
 ## Quick Install (Recommended)
 
-1. Download this repository as ZIP.
+1. Download this repo as ZIP.
 2. Extract it.
-3. Run `install.ps1` (or `install.bat` if PowerShell is blocked).
+3. Run `install.ps1` (PowerShell) or `install.bat`.
 4. Launch Half-Sword.
 5. Open the console and type `KitchenDystopia`.
 
----
-
-## Manual Install
-
-Copy the `KitchenMayhem` folder into:
-`Your Half-Sword Folder\HalfswordUE5\Binaries\Win64\UE4SS\Mods\`
+The installer will put everything in the right place automatically.
 
 ---
 
-## Commands
+## What This Mod Does
 
-- `KitchenDystopia` / `ChefApocalypse` — Activates the full dystopian kitchen experience
-- `IronChef` — Become an unstoppable chef
-- `PanTime` — Ultra slow motion cooking time
-- `ChefSlow` / `ChefFast` — Time manipulation
+- Turns the entire game into a chaotic dystopian kitchen.
+- Gives you powerful chef commands.
+- Changes the feel of every match when the mode is active.
 
----
+This is the first real public release from the autonomous mod factory.
 
-*This is the first official release from the Half-Sword Autonomous Mod Factory.*
-
-Bon appétit, you beautiful disaster.
+Enjoy the apocalypse, chef. 🔥🍳🐀
