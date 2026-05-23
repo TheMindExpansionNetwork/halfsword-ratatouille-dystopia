@@ -54,13 +54,16 @@ local function ToggleDystopia()
     if dystopiaActive then
         ApplyTimeDilation(0.55)
         print("[CHEF APOCALYPSE] KITCHEN DYSTOPIA MODE ACTIVATED!")
+        print("[CHEF APOCALYPSE] The world has become one giant ruined kitchen.")
+        print("[CHEF APOCALYPSE] Everyone is a rat. Everyone has a pan. This is the final course.")
     else
         ApplyTimeDilation(1.0)
-        print("[CHEF APOCALYPSE] Mode deactivated.")
+        print("[CHEF APOCALYPSE] The dream is over. Back to normal suffering.")
     end
 end
 
 RegisterConsoleCommand("KitchenDystopia", ToggleDystopia)
 RegisterConsoleCommand("ChefApocalypse", ToggleDystopia)
 
-print("Ratatouille: Dystopia Edition loaded. Type KitchenDystopia to begin the end.")
+print("[Ratatouille] Commands: KitchenDystopia, IronChef, PanTime, ChefSlow, ChefFast...")
+print("[Ratatouille] Remember: Anyone can cook. Not everyone survives.")
