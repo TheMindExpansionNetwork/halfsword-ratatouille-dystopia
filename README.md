@@ -44,13 +44,14 @@ The demo pak mounts at `/HalfswordUE5/Content/...` and is installed automaticall
 
 1. Download this repo as a ZIP.
 2. Extract it somewhere.
-3. Run `install.ps1` (best on Windows) or `install.bat`.
-4. The installer copies both the Lua mod (KitchenMayhem) **and** the visual props pak (Paks/RatatouilleVisuals_Demo.pak) to the right places.
+3. **Right-click `install_now.ps1`** → Run as Administrator (this is the best one).
+   - It automatically enables the mod by default and fixes the console.
+4. If you have a weird Steam folder (like on `I:` or custom library), use `install_now.ps1`.
 5. Start Half-Sword.
-6. Open the console (`~` or `Insert` key).
-7. Type `KitchenDystopia` (or `ChefApocalypse`) to turn on the full chef apocalypse — time warp + kitchen visuals active.
+6. Open the console (`Insert`, `F10`, or `~`).
+7. Type `KitchenDystopia` (or `ChefApocalypse`) to turn on the full chef apocalypse.
 
-The installer puts the mod + pak in the correct folders automatically (UE4SS/Mods/ and Content/Paks/).
+The mod is now **enabled by default** — no need to touch `mods.txt`.
 
 ---
 
