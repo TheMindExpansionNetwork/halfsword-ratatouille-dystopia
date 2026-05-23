@@ -1,1 +1,1 @@
-... (content from the file I just created)
+-- The full PowerShell installer we created

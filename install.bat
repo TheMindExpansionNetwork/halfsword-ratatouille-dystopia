@@ -1,1 +1,1 @@
-... (content from the file I just created)
+-- The batch installer we created
